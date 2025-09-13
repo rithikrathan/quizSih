@@ -31,6 +31,8 @@ export default function subject({ subject, setSub, setStage }: args) {
 				<option value="">none</option>
 				<option value="dsa">Data Structures and Algorithms</option>
 				<option value="mpmc">Microprocessors and Microcontrollers</option>
+				<option value="coa">Computer Organisation and Architecture</option>
+				<option value="ajp">Advanced Java Programming</option>
 			</select>
 			<button onClick={handleButtonInput}>Continue</button>
 			{notify && <p>{notify}</p>}

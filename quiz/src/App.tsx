@@ -3,7 +3,6 @@ import login from "./components/login";
 import subject from "./components/subject";
 import quiz from "./components/quiz";
 import results from "./components/results";
-import answers from "./components/answers";
 
 
 export default function app() {
@@ -12,12 +11,12 @@ export default function app() {
 	const Quiz = quiz
 	const Subject = subject
 	const Results = results
-	const Answers = answers
 
 	const [stage, setStage] = useState<string>("login");
 	const [uname, setUname] = useState<string>("");
 	const [institute, setInst] = useState<string>("");
 	const [sub, setSub] = useState<string>("")
+	const [score, setScore] = useState(0)
 
 	return (
 		<div>
@@ -37,9 +36,17 @@ export default function app() {
 					setStage={setStage}
 				/>}
 
-				{stage === "quiz" && <Quiz />}
-				{stage === "results" && <Results />}
-				{stage === "answers" && <Answers />}
+				{stage === "quiz" && <Quiz
+					subject={sub}
+					setStage={setStage}
+					setScore={setScore}
+				/>}
+
+				{stage === "results" && <Results
+					setStage={setStage}
+					score={score}
+				/>}
+
 			</div>
 			<div>
 				<p>{uname}</p>

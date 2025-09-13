@@ -1,0 +1,31 @@
+subject,question,a,b,c,d,answer
+DSA,The process of determining the efficiency of an algorithm is called:,Compilation,Complexity analysis,Debugging,Execution,b) Complexity analysis
+DSA,Space complexity includes:,"Instruction space, data space, stack space",Only data space,CPU registers,Cache memory only,"a) Instruction space, data space, stack space"
+DSA,Big-O notation describes:,Exact running time,Lower bound,Upper bound of growth rate,Average bound,c) Upper bound of growth rate
+DSA,The average-case time complexity of linear search is:,O(1),O(log n),O(n),O(n log n),c) O(n)
+DSA,Which of the following is asymptotically faster?,O(n²),O(n log n),O(2^n),O(n³),b) O(n log n)
+DSA,An array is best described as:,Homogeneous linear data structure,Heterogeneous linear structure,Non-linear data structure,Dynamic structure,a) Homogeneous linear data structure
+DSA,"In a singly linked list, time complexity to access the ith element is:",O(1),O(n),O(log n),O(n²),b) O(n)
+DSA,Circular linked lists are best suited for:,Implementing recursion,CPU scheduling (round robin),Random access,Hashing,b) CPU scheduling (round robin)
+DSA,Doubly linked list requires extra memory for:,Data field,Next pointer only,Previous pointer only,Both next and previous pointers,d) Both next and previous pointers
+DSA,Which is not a dynamic data structure?,Stack (linked list implementation),Array,Queue (linked list implementation),Binary tree,b) Array
+DSA,Which data structure follows LIFO?,Queue,Stack,Linked list,Heap,b) Stack
+DSA,Infix to Postfix conversion is done using:,Queue,Stack,Array,Tree,b) Stack
+DSA,Queue follows which principle?,FIFO,LIFO,Random access,Priority based,a) FIFO
+DSA,Circular queue helps in:,Avoiding memory wastage,Faster insertion,Faster deletion,Recursion,a) Avoiding memory wastage
+DSA,Which is not an application of stack?,Undo/Redo in editors,Recursion handling,CPU scheduling,Expression evaluation,c) CPU scheduling
+DSA,Best case time complexity of binary search is:,O(1),O(n),O(log n),O(n log n),a) O(1)
+DSA,Which sorting algorithm is stable?,Quick Sort,Merge Sort,Heap Sort,Selection Sort,b) Merge Sort
+DSA,Worst case time complexity of Quick Sort:,O(n log n),O(n²),O(n),O(log n),b) O(n²)
+DSA,Which sorting uses Divide and Conquer?,Bubble Sort,Selection Sort,Merge Sort,Insertion Sort,c) Merge Sort
+DSA,Heap Sort uses which data structure?,Stack,Queue,Heap (binary tree),Linked list,c) Heap (binary tree)
+DSA,A binary tree with maximum nodes at depth ‘d’ has:,2^d – 1 nodes,2^(d+1) – 1 nodes,2d nodes,None,b) 2^(d+1) – 1 nodes
+DSA,Inorder traversal of a BST gives:,Preorder sequence,Postorder sequence,Sorted sequence,Random sequence,c) Sorted sequence
+DSA,Balance factor in AVL tree is:,Height(left) + Height(right),Height(left) – Height(right),Nodes(left) – Nodes(right),Depth(left) / Depth(right),b) Height(left) – Height(right)
+DSA,Time complexity to search in B-Tree is:,O(1),O(n),O(log n),O(n log n),c) O(log n)
+DSA,Minimum number of edges in a connected graph with n vertices:,n,n-1,n+1,n²,b) n-1
+DSA,Hashing helps in achieving:,Constant time search on average,Sorting,Traversal,Recursion,a) Constant time search on average
+DSA,A good hash function should:,Map all keys to same location,Uniformly distribute keys,Depend on memory size,Be slow but accurate,b) Uniformly distribute keys
+DSA,Rehashing is performed when:,Hash table is empty,Load factor exceeds threshold,CPU is idle,Collision occurs once,b) Load factor exceeds threshold
+DSA,Symbol tables are used in:,Operating Systems,Compilers,Databases,Networking,b) Compilers
+DSA,External sorting is required when:,Data fits in RAM,Data is very small,Data does not fit in main memory,Sorting needs O(n log n),c) Data does not fit in main memory
