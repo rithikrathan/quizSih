@@ -40,11 +40,15 @@ export default function app() {
 					subject={sub}
 					setStage={setStage}
 					setScore={setScore}
+					uname={uname}
+					inst={institute}
 				/>}
 
-				{stage === "results" && <Results
+				{stage === "results" && < Results
 					setStage={setStage}
 					score={score}
+					subject={sub}
+					setSub={setSub}
 				/>}
 
 			</div>
